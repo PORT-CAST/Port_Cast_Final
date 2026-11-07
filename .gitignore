@@ -1,0 +1,24 @@
+# 가상환경과 개인 설정
+.venv/
+.idea/
+
+# 데이터 폴더
+Data/
+data/
+
+# 수집한 원본 데이터
+/0.Data_Gathering/
+
+# 임시파일
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 위치에 관계없이 CSV·엑셀 파일 제외
+*.[cC][sS][vV]
+*.[xX][lL][sS]
+*.[xX][lL][sS][xX]
+*.[xX][lL][sS][mM]
+
+# 다운로드한 원본 폴더 제외
+Drive_원본/
